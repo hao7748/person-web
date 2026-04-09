@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Hao Xu (许浩). I am a PhD student in the School of Mathematics and Statistics at the University of Sydney, Australia, supervised by Dr. [Garth Tarr](https://garthtarr.com/) and Dr. [Qiuzhuang Sun](https://q-strong.github.io/).
+My name is Hao Xu (许浩). I am a PhD student in the School of Mathematics and Statistics at the University of Sydney, Australia, supervised by Dr. [Garth Tarr](https://profiles.sydney.edu.au/garth.tarr) and Dr. [Qiuzhuang Sun](https://q-strong.github.io/).
 My research interests include foundation models for decision-making, partially observable Markov decision processes (POMDPs), and AI/LLM applications in manufacturing and materials science.
 During my master’s studies, I worked on deep-learning-based anomaly detection in manufacturing scenarios and attention-based financial sentiment analysis.
 

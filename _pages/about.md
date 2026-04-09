@@ -20,7 +20,7 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
 **Selected Awards:**
 - [Finalist in the Best Paper Competition at the 2025 INFORMS Conference on Quality, Statistics, and Reliability](https://connect.informs.org/discussion/icqsr-2025-best-paper-award-finalists).
 
-**Publications:**
+**Papers:**
 \* indicates co-first authors.
 - [GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks](https://arxiv.org/abs/2504.12764)  
   Hao Xu\*, Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chao Zhang, Suyucheng Wang, Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu  

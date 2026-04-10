@@ -24,7 +24,7 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
 \* indicates co-first authors.
 - [FORGE: Fine-grained multimodal evaluation for manufacturing scenarios](https://arxiv.org/abs/2604.07413)  
   Xiangru Jian\*, Hao Xu\*, Wei Pang\*, Xinjian Zhao, Chengyu Tao, Qixin Zhang, Xikun Zhang, Chao Zhang, Guanzhi Deng, Alex Xue, Juan Du, Tianshu Yu, Garth Tarr, Linqi Song, Qiuzhuang Sun, Dacheng Tao  
-  <i>Preprint</i>.
+  <i>arXiv preprint arXiv:2604.07413</i>.
 - [GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks](https://arxiv.org/abs/2504.12764)  
   Hao Xu\*, Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chao Zhang, Suyucheng Wang, Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu  
   <i>International Conference on Learning Representations (ICLR), 2026</i>.

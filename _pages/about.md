@@ -23,7 +23,7 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
 - [Finalist in the Best Paper Competition at the 2025 INFORMS Conference on Quality, Statistics, and Reliability](https://connect.informs.org/discussion/icqsr-2025-best-paper-award-finalists).
 
 **Papers:**
-\* indicates co-first authors; <sup>&dagger;</sup> indicates corresponding authors.
+\* indicates co-first authors. <sup>&dagger;</sup> indicates corresponding authors.
 - [FORGE: Fine-grained multimodal evaluation for manufacturing scenarios](https://arxiv.org/abs/2604.07413)  
   Xiangru Jian\*, Hao Xu\*<sup>&dagger;</sup>, Wei Pang\*, Xinjian Zhao, Chengyu Tao, Qixin Zhang, Xikun Zhang<sup>&dagger;</sup>, Chao Zhang, Guanzhi Deng, Alex Xue, Juan Du, Tianshu Yu, Garth Tarr, Linqi Song, Qiuzhuang Sun, Dacheng Tao  
   <i>arXiv preprint arXiv:2604.07413</i>.

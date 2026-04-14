@@ -1,0 +1,205 @@
+% ============================================================
+%   Hao Xu  —  Academic CV
+%   Compile with:  pdflatex cvhao.tex   (run twice for links)
+% ============================================================
+\documentclass[11pt, a4paper]{article}
+
+% ── encoding & fonts ────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}          % Latin Modern — smoother than CM
+\usepackage{microtype}        % optical margin alignment + kerning
+
+% ── page layout ─────────────────────────────────────────────
+\usepackage[
+  top    = 0.50in,
+  bottom = 0.50in,
+  left   = 0.65in,
+  right  = 0.65in
+]{geometry}
+
+% ── colour ──────────────────────────────────────────────────
+\usepackage[dvipsnames]{xcolor}
+\definecolor{navyblue}{RGB}{26, 58, 92}
+\definecolor{linkblue}{RGB}{22, 90, 160}
+\definecolor{rulecolor}{RGB}{26, 58, 92}
+
+% ── hyperlinks ──────────────────────────────────────────────
+\usepackage[
+  colorlinks = true,
+  urlcolor   = linkblue,
+  linkcolor  = linkblue,
+  citecolor  = linkblue,
+  pdfauthor  = {Hao Xu},
+  pdftitle   = {Hao Xu — CV}
+]{hyperref}
+
+% ── section headings ────────────────────────────────────────
+\usepackage{titlesec}
+\titleformat{\section}
+  {\large\bfseries\color{navyblue}}  % format
+  {}{0pt}                             % label, sep
+  {}                                  % before-code
+  [\color{rulecolor}\vspace{1pt}\hrule height 0.8pt\vspace{2pt}]  % after-code
+\titlespacing{\section}{0pt}{7pt}{3pt}
+
+% ── lists ───────────────────────────────────────────────────
+\usepackage{enumitem}
+\setlist[itemize]{
+  leftmargin = 1.4em,
+  itemsep    = 2pt,
+  topsep     = 3pt,
+  parsep     = 0pt
+}
+\setlist[enumerate]{
+  leftmargin = 1.8em,
+  itemsep    = 3pt,
+  topsep     = 2pt,
+  parsep     = 0pt
+}
+
+% ── tables ──────────────────────────────────────────────────
+\usepackage{array}
+\usepackage{tabularx}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}  % left-flex
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p{2.2cm}} % right-date
+
+% ── misc ────────────────────────────────────────────────────
+\usepackage{parskip}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% ── helper: education entry ──────────────────────────────────
+\newcommand{\edentry}[3]{%
+  \textbf{#1}\par
+  \textit{\small #2}\par
+  \vspace{1pt}
+  {\small\textit{Research: }#3}
+  \vspace{3pt}
+}
+
+% ── helper: award entry ──────────────────────────────────────
+\newcommand{\awardentry}[2]{%
+  \begin{tabularx}{\textwidth}{@{}L@{\hspace{6pt}}R@{}}
+    #1 & \textit{\small #2} \\
+  \end{tabularx}%
+  \vspace{1pt}
+}
+
+\pagestyle{plain}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% ── HEADER ──────────────────────────────────────────────────
+\begin{center}
+  {\fontsize{22}{26}\selectfont\bfseries\color{navyblue} Hao Xu}\\[4pt]
+  \small
+  \href{mailto:haxu0087@uni.sydney.edu.au}{haxu0087@uni.sydney.edu.au}
+  \enspace\textbullet\enspace
+  \href{https://scholar.google.com/citations?hl=zh-CN&user=UT4pBpAAAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar}
+  \enspace\textbullet\enspace
+  \href{https://www.linkedin.com/in/hao-xu-5a1201293}{LinkedIn}
+  \enspace\textbullet\enspace
+  \href{https://github.com/hao7748}{GitHub}
+\end{center}
+
+% ── RESEARCH INTERESTS ──────────────────────────────────────
+\section{Research Interests}
+
+\small
+Foundation models for decision-making \textbullet{} Partially Observable Markov Decision Processes (POMDPs) \textbullet{} LLM applications in manufacturing and materials science
+
+% ── EDUCATION ───────────────────────────────────────────────
+\section{Education}
+
+\edentry%
+  {Ph.D.\ in Mathematics and Statistics}%
+  {The University of Sydney, Sydney, Australia}%
+  {Foundation models for decision-making, POMDPs, and AI/LLM applications
+   in manufacturing and materials science.}
+
+\edentry%
+  {MPhil in Smart Manufacturing}%
+  {HKUST (Guangzhou), Guangzhou, China}%
+  {Anomaly detection in industrial manufacturing; high-dimensional data
+   processing for point clouds and images.}
+
+\edentry%
+  {M.S.\ in Data Science}%
+  {City University of Hong Kong, Hong Kong, China}%
+  {Deep learning and predictive modeling; attention-based financial sentiment
+   analysis and epidemiological mortality monitoring.}
+
+\textbf{B.Eng.\ in Materials Science and Engineering}\par
+\textit{\small Chongqing University, Chongqing, China}\par
+\vspace{1pt}
+{\small\textit{Research: }Materials synthesis, characterization, and failure analysis;
+  ODS steels, Mg-based hydrogen storage alloys, and high-voltage testing.
+  \textbf{Grade Rank: Top 5\%.}}
+
+% ── PUBLICATIONS ────────────────────────────────────────────
+\section{Publications}
+\small\textit{* indicates co-first authors; \textsuperscript{\textdagger} indicates corresponding authors.}
+\vspace{2pt}
+
+\begin{enumerate}[label={[\arabic*]}, leftmargin=2em, itemsep=4pt]
+
+\item Xiangru Jian*, \textbf{Hao Xu*\textsuperscript{\textdagger}}, Wei Pang*, Xinjian Zhao, Chengyu Tao, Qixin Zhang,
+  Xikun Zhang\textsuperscript{\textdagger}, Chao Zhang, Guanzhi Deng, Alex Xue, Juan Du, Tianshu Yu, Garth Tarr,
+  Linqi Song, Qiuzhuang Sun, Dacheng Tao.\\
+  \textbf{FORGE: Fine-grained Multimodal Evaluation for Manufacturing Scenarios.}\\
+  \textit{arXiv preprint arXiv:2604.07413}, 2026.
+  \href{https://arxiv.org/abs/2604.07413}{\small[arXiv]}
+
+\item \textbf{Hao Xu*}, Xiangru Jian*\textsuperscript{\textdagger}, Xinjian Zhao*, Wei Pang*, Chao Zhang, Suyuchen Wang,
+  Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu\textsuperscript{\textdagger}.\\
+  \textbf{GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large
+  Language Models on Graph-theoretic Tasks.}\\
+  \textit{International Conference on Learning Representations (ICLR)}, 2026.
+  \href{https://arxiv.org/abs/2504.12764}{\small[arXiv]}
+
+\item Chengyu Tao, \textbf{Hao Xu}, Juan Du\textsuperscript{\textdagger}.\\
+  \textbf{F2PAD: A General Optimization Framework for Feature-Level to Pixel-Level
+  Anomaly Detection.}\\
+  \textit{arXiv preprint arXiv:2407.06519}, 2024.
+  \href{https://arxiv.org/abs/2407.06519}{\small[arXiv]}
+
+\item \textbf{Hao Xu}, Juan Du\textsuperscript{\textdagger}, A.\ Wang, Y.C.\ Chen.\\
+  \textbf{Ano-SuPs: Multi-size Anomaly Detection for Manufactured Products by
+  Identifying Suspected Patches.}\\
+  Under second revision at \textit{INFORMS Journal on Data Science}, 2023.
+  \href{https://arxiv.org/abs/2309.11120}{\small[arXiv]}
+
+\end{enumerate}
+
+% ── SELECTED AWARDS ─────────────────────────────────────────
+\section{Selected Awards}
+
+\awardentry{Finalist, Best Paper Competition — INFORMS Conference on Quality, Statistics,
+  and Reliability}{2025}
+
+\awardentry{Outstanding Graduate of Chongqing City}{2020}
+
+\awardentry{National College Students Summer Social Practice Special Action
+  Bronze Award \textit{(Deputy Leader)}}{2018}
+
+% ── (OPTIONAL SECTIONS — uncomment and fill in as needed) ───
+
+% \section{Research \& Work Experience}
+% \edentry{Research Assistant}{...}{...}{...}
+
+% \section{Skills}
+% \begin{itemize}
+%   \item \textbf{Programming:} Python, MATLAB, R, \LaTeX
+%   \item \textbf{Frameworks:} PyTorch, HuggingFace, Open3D
+%   \item \textbf{Languages:} Chinese (native), English (fluent)
+% \end{itemize}
+
+% \section{Academic Service}
+% \begin{itemize}
+%   \item Reviewer, \textit{...}
+% \end{itemize}
+
+\end{document}

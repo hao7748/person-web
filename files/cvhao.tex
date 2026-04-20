@@ -70,11 +70,13 @@
 \setlength{\parindent}{0pt}
 
 % ── helper: education entry ──────────────────────────────────
-\newcommand{\edentry}[3]{%
-  \textbf{#1}\par
-  \textit{\small #2}\par
+\newcommand{\edentry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}L@{\hspace{6pt}}R@{}}
+    \textbf{#1} & \textit{\small #2} \\
+  \end{tabularx}\par
+  \textit{\small #3}\par
   \vspace{1pt}
-  {\small\textit{Research: }#3}
+  {\small\textit{Research: }#4}
   \vspace{3pt}
 }
 
@@ -116,28 +118,32 @@ Foundation models for decision-making \textbullet{} Partially Observable Markov 
 
 \edentry%
   {Ph.D.\ in Mathematics and Statistics}%
+  {2025--Present}%
   {The University of Sydney, Sydney, Australia}%
   {Foundation models for decision-making, POMDPs, and AI/LLM applications
    in manufacturing and materials science.}
 
 \edentry%
   {MPhil in Smart Manufacturing}%
+  {2022--2024}%
   {HKUST (Guangzhou), Guangzhou, China}%
   {Anomaly detection in industrial manufacturing; high-dimensional data
    processing for point clouds and images.}
 
 \edentry%
   {M.S.\ in Data Science}%
+  {2021--2022}%
   {City University of Hong Kong, Hong Kong, China}%
   {Deep learning and predictive modeling; attention-based financial sentiment
    analysis and epidemiological mortality monitoring.}
 
-\textbf{B.Eng.\ in Materials Science and Engineering}\par
-\textit{\small Chongqing University, Chongqing, China}\par
-\vspace{1pt}
-{\small\textit{Research: }Materials synthesis, characterization, and failure analysis;
-  ODS steels, Mg-based hydrogen storage alloys, and high-voltage testing.
-  \textbf{Grade Rank: Top 5\%.}}
+\edentry%
+  {B.Eng.\ in Materials Science and Engineering}%
+  {2016--2020}%
+  {Chongqing University, Chongqing, China}%
+  {Materials synthesis, characterization, and failure analysis;
+   ODS steels, Mg-based hydrogen storage alloys, and high-voltage testing.
+   \textbf{Grade Rank: Top 5\%.}}
 
 % ── PUBLICATIONS ────────────────────────────────────────────
 \section{Publications}
@@ -169,7 +175,7 @@ Foundation models for decision-making \textbullet{} Partially Observable Markov 
 \item \textbf{Hao Xu}, Juan Du\textsuperscript{\textdagger}, A.\ Wang, Y.C.\ Chen.\\
   \textbf{Ano-SuPs: Multi-size Anomaly Detection for Manufactured Products by
   Identifying Suspected Patches.}\\
-  Under second revision at \textit{INFORMS Journal on Data Science}, 2023.
+  Accepted in \textit{INFORMS Journal on Data Science}, 2023.
   \href{https://arxiv.org/abs/2309.11120}{\small[arXiv]}
 
 \end{enumerate}

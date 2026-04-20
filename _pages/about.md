@@ -35,6 +35,6 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
   <i>arXiv preprint arXiv:2407.06519</i>.
 - [Ano-SuPs: Multi-size anomaly detection for manufactured products by identifying suspected patches](https://arxiv.org/abs/2309.11120)  
   <strong>H Xu</strong>, J Du<sup>&dagger;</sup>, A Wang, YC Chen  
-  <i>arXiv preprint arXiv:2309.11120</i>.
+  <i>Accepted in INFORMS Journal on Data Science</i>.
 
 Please find my full set of publications on my [Google Scholar page](https://scholar.google.com/citations?hl=zh-CN&user=UT4pBpAAAAAJ&view_op=list_works&sortby=pubdate).

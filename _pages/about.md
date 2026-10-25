@@ -24,7 +24,7 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
 
 **Papers:**
 \* indicates co-first authors. <sup>&dagger;</sup> indicates corresponding authors.
-- [FORGE: Fine-grained multimodal evaluation for manufacturing scenarios](https://arxiv.org/abs/2604.07413)  
+- [FORGE: Fine-grained multimodal evaluation for manufacturing scenarios](https://aclanthology.org/2026.findings-emnlp.888/)  
   Xiangru Jian\*, <strong>Hao Xu\*</strong><sup>&dagger;</sup>, Wei Pang\*, Xinjian Zhao, Chengyu Tao, Qixin Zhang, Xikun Zhang<sup>&dagger;</sup>, Chao Zhang, Guanzhi Deng, Alex Xue, Juan Du, Tianshu Yu, Garth Tarr, Linqi Song, Qiuzhuang Sun, Dacheng Tao  
   <i>Findings of the Association for Computational Linguistics: EMNLP 2026</i>.
 - [GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks](https://arxiv.org/abs/2504.12764)  

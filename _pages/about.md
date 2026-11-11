@@ -17,24 +17,24 @@ During my master’s studies, I worked on deep-learning-based anomaly detection 
 - Ph.D. in Mathematics and Statistics, [The University of Sydney](https://www.sydney.edu.au/)
 - MPhil in Smart Manufacturing, [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/)
 - M.S. in Data Science, [City University of Hong Kong](https://www.cityu.edu.hk/)
-- B.Eng. in Materials Science and Engineering, [Chongqing University](https://cmse.cqu.edu.cn/)
+- B.Eng. in Materials Science and Engineering, [Chongqing University](https://cmse.cqu.edu.cn/en/home.htm)
 
 **Selected Awards:**
 - [Finalist in the Best Paper Competition at the 2025 INFORMS Conference on Quality, Statistics, and Reliability](https://connect.informs.org/discussion/icqsr-2025-best-paper-award-finalists).
 
 **Papers:**
 \* indicates co-first authors. <sup>&dagger;</sup> indicates corresponding authors.
-- [FORGE: Fine-grained multimodal evaluation for manufacturing scenarios](https://aclanthology.org/2026.findings-emnlp.888/)  
-  Xiangru Jian\*, <strong>Hao Xu\*</strong><sup>&dagger;</sup>, Wei Pang\*, Xinjian Zhao, Chengyu Tao, Qixin Zhang, Xikun Zhang<sup>&dagger;</sup>, Chao Zhang, Guanzhi Deng, Alex Xue, Juan Du, Tianshu Yu, Garth Tarr, Linqi Song, Qiuzhuang Sun, Dacheng Tao  
+- [FORGE: Fine-grained multimodal evaluation for manufacturing quality assurance](https://aclanthology.org/2026.findings-emnlp.888/)  
+  Xiangru Jian\*, <strong>Hao Xu\*</strong><sup>&dagger;</sup>, Wei Pang\*, Xinjian Zhao, Chengyu Tao, Qixin Zhang, Xikun Zhang<sup>&dagger;</sup>, Chao Zhang, Guanzhi Deng, Jingxi Xue, Juan Du, Tianshu Yu, Garth Tarr, Linqi Song, Qiuzhuang Sun, Dacheng Tao  
   <i>Findings of the Association for Computational Linguistics: EMNLP 2026</i>.
 - [GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks](https://arxiv.org/abs/2504.12764)  
-  <strong>Hao Xu\*</strong>, Xiangru Jian\*<sup>&dagger;</sup>, Xinjian Zhao\*, Wei Pang\*, Chao Zhang, Suyucheng Wang, Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu<sup>&dagger;</sup>  
+  <strong>Hao Xu\*</strong>, Xiangru Jian\*<sup>&dagger;</sup>, Xinjian Zhao\*, Wei Pang\*, Chao Zhang, Suyuchen Wang, Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu<sup>&dagger;</sup>  
   <i>International Conference on Learning Representations (ICLR), 2026</i>.
 - [F2PAD: A General Optimization Framework for Feature-Level to Pixel-Level Anomaly Detection](https://arxiv.org/abs/2407.06519)  
   C Tao, <strong>H Xu</strong>, J Du<sup>&dagger;</sup>  
   <i>arXiv preprint arXiv:2407.06519</i>.
-- [Ano-SuPs: Multi-size anomaly detection for manufactured products by identifying suspected patches](https://arxiv.org/abs/2309.11120)  
+- [Ano-SuPs: Multisize Anomaly Detection for Manufactured Products by Identifying Suspected Patches via Vision Transformer](https://doi.org/10.1287/ijds.2024.0058)  
   <strong>H Xu</strong>, J Du<sup>&dagger;</sup>, A Wang, YC Chen  
-  <i>Accepted in INFORMS Journal on Data Science</i>.
+  <i>INFORMS Journal on Data Science</i>, 2026.
 
 Please find my full set of publications on my [Google Scholar page](https://scholar.google.com/citations?hl=zh-CN&user=UT4pBpAAAAAJ&view_op=list_works&sortby=pubdate).
